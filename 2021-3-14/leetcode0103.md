@@ -61,3 +61,36 @@ public:
 ```
 
 相比层次遍历多在一个翻转vector。
+
+![BFS](https://pic.leetcode-cn.com/1608599340-TRBfIV-image.png "图片来自网络")
+
+***
+
+**DFS解法**
+
+```cpp
+class Solution {
+public:
+    void dfs(TreeNode *root, int level, vector<vector<int>> &result){
+        if(root==NULL) return;
+        if(result.size() <= level) result.push_back(vector<int>());
+        if(level%2){
+            result[level].insert(result[level].begin(), root->val);
+        } else {
+            result[level].push_back(root->val);
+        }
+        dfs(root->left, level+1, result);
+        dfs(root->right, level+1, result);
+    }
+    
+    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
+        vector<vector<int>> result;
+        dfs(root, 0, result);
+        return result;
+    }
+};
+```
+
+上面的代码使用的前序遍历的递归形式，也可以使用栈进行DFS遍历
+
+
