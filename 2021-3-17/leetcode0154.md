@@ -65,4 +65,4 @@ public:
 };
 ```
 
-在使前`leetcode153`前两种解法，`pass`了本题之后，我把`leetcode153`的第三种解法写在了答题框内并提交，发现部分用力不能通过。于是根据用例的提示修改，得出上述解法。与`leetcode153`解法的不同在于`nums[mid]==nums[high]`的部分。当`nums[mid]=nums[high]`时，说明low~mid以及high的值相同或mid~high的值相同。使用`low=mid+1`和`high=high-1`以及`low=mid`都能很好的解决`[3,3,1,3]`的情况，但是`[1,3,3]`的情况下，`low=mid+1`不能通过，`low=mid`严重超时。只有`high=high`符合情况。可能还有一些情况没有考虑到，之后复习的时候再想想。
+在使前`leetcode153`前两种解法，`pass`了本题之后，我把`leetcode153`的第三种解法写在了答题框内并提交，发现部分用力不能通过。于是根据用例的提示修改，得出上述解法。与`leetcode153`解法的不同在于`nums[mid]==nums[high]`的部分。当`nums[mid]=nums[high]`时，说明low~mid以及high的值相同或mid~high的值相同。使用`low=mid+1`和`high=high-1`以及`low=mid`都能很好的解决`[3,3,1,3]`的情况，但是`[1,3,3]`的情况下，`low=mid+1`不能通过，`low=mid`严重超时。只有`high=high-1`符合情况。可能还有一些情况没有考虑到，之后复习的时候再想想。
