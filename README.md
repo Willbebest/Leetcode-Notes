@@ -1,5 +1,10 @@
 # Leetcode-Notes  
 
+2021-3-17 
+
+  - 0153: [寻找旋转排序数组中的最小值（元素唯一）](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-17/leetcode0153.md)  
+  - 0154: [寻找旋转排序数组中的最小值（元素不唯一）](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-17/leetcode0154.md) 
+
 2021-3-16  
 
   - 0141: [判断链表是否有环](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-16/leetcode0141.md)  
