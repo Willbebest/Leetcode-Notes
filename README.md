@@ -2,6 +2,13 @@
 
 2021-3-17 
 
+  - 0053: [最大子序和](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-18/leetcode0053.md)  
+  - 0081: [搜索旋转排序数组 II（元素不唯一）](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-18/leetcode0081.md) 
+
+
+
+2021-3-17 
+
   - 0153: [寻找旋转排序数组中的最小值（元素唯一）](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-17/leetcode0153.md)  
   - 0154: [寻找旋转排序数组中的最小值（元素不唯一）](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-17/leetcode0154.md) 
 
