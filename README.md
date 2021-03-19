@@ -1,11 +1,5 @@
 # Leetcode-Notes  
 
-<<<<<<< HEAD
-**此仓库代表了我刷题的过程和心情~**
-=======
-2021-3-18
->>>>>>> ac755d7554ec844074ba06028158c41638dfa56e
-
 2021-3-19 
 
   - 0128: [最长连续序列](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-19/leetcode0128.md)  
