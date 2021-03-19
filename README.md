@@ -1,5 +1,7 @@
 # Leetcode-Notes  
 
+**此仓库代表了我刷题的过程和心情~**
+
 2021-3-19 
 
   - 0128: [最长连续序列](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-19/leetcode0128.md)  
