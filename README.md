@@ -4,8 +4,8 @@
 
 2021-3-19 
 
-  - 0112: [最小栈](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-22/leetcode0112.md)  
-  - 0155: [路径总和](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-22/leetcode0155.md)  
+  - 0112: [路径总和](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-22/leetcode0112.md)  
+  - 0155: [最小栈](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-22/leetcode0155.md)  
 
 2021-3-21
 
