@@ -4,8 +4,8 @@
 
 2021-3-23
 
-  - 0112: [路径总和](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-23/leetcode0112.md)  
-  - 0189: [最小栈](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-23/leetcode0189.md)  
+  - 0034: [在排序数组中查找元素的第一个和最后一个位置](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-23/leetcode0034.md)  
+  - 0189: [旋转数组](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-23/leetcode0189.md)  
 
 2021-3-22
 
