@@ -2,6 +2,11 @@
 
 **此仓库代表了我刷题的过程和心情~**
 
+2021-3-24
+
+  - 0206: [反转链表全部结点](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-24/leetcode0206.md)  
+  - 0092: [反转链表部分结点](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-24/leetcode0092.md)  
+
 2021-3-23
 
   - 0034: [在排序数组中查找元素的第一个和最后一个位置](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-23/leetcode0034.md)  
