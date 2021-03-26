@@ -2,6 +2,10 @@
 
 **此仓库代表了我刷题的过程和心情~**
 
+2021-3-25
+
+  - 0206: [字符串解码](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-25/leetcode0394.md)  
+
 2021-3-24
 
   - 0206: [反转链表全部结点](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-24/leetcode0206.md)  
