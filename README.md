@@ -2,6 +2,11 @@
 
 **此仓库代表了我刷题的过程和心情~**
 
+2021-3-26
+
+  - 0143: [重排链表](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-26/leetcode0143.md)  
+
+
 2021-3-25
 
   - 0206: [字符串解码](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-25/leetcode0394.md)  
