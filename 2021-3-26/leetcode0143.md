@@ -90,3 +90,69 @@ public:
 ```
 
 时间复杂度为O($n^2$)
+
+***
+
+**查找中点+反转链表+合并链表**
+
+```cpp
+class Solution {
+public:
+    void reorderList(ListNode* head) {
+        if(head==NULL||head->next==NULL) return;
+        ListNode* mid = GetMidNode(head);
+        ListNode* l1 =head;
+        ListNode* l2 =mid;
+        l2 = Reverselist(l2);
+        head = MergeList(l1, l2); 
+    }
+	// 获取链表中间结点
+    ListNode* GetMidNode(ListNode* head)
+    {
+        ListNode* slow = head;
+        ListNode* fast = head;
+        ListNode* pre = slow;
+        while(fast&&fast->next) {
+            pre =slow;
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        pre->next = NULL; // 直接将原来的链表一分为二
+        return slow;
+    }
+	// 反转链表
+    ListNode* Reverselist(ListNode*head)
+    {
+        if(head==NULL || head->next==NULL) return head;
+        head = new ListNode(-1, head);
+        ListNode* pCur = head->next;
+        head->next = NULL;
+        while(pCur) {
+            ListNode* node = pCur;
+            pCur = pCur->next;
+
+            node->next = head->next;
+            head->next= node;
+        }
+        return head->next;
+    }
+	// 合并链表
+    ListNode* MergeList(ListNode* l1, ListNode* l2)
+    {
+        ListNode *head= new ListNode(-1);
+        ListNode *pCur= head;
+        while(l1&&l2) {
+            pCur->next = l1;
+            l1=l1->next;
+            pCur->next->next = l2;
+            l2=l2->next;
+            pCur = pCur->next->next;
+        }
+        pCur->next = l1?l1:l2;
+        return head->next;
+    }
+};
+```
+
+先查找整个链表的中点mid，将链表分为l<sub>1</sub>和l<sub>2</sub>，l<sub>1</sub>代表mid之前的节点，l<sub>2</sub>代表mid之后的节点。反转l<sub>2</sub>，合并两个节点。时间复杂度为O(n)，空间复杂度为O(1)
+
