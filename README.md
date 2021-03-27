@@ -2,6 +2,10 @@
 
 **此仓库代表了我刷题的过程和心情~**
 
+2021-3-27
+
+  - 0125: [验证回文串](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-27/leetcode0125.md)  
+
 2021-3-26
 
   - 0143: [重排链表](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-26/leetcode0143.md)  
