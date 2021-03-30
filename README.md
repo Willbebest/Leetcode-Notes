@@ -2,6 +2,15 @@
 
 **此仓库代表了我刷题的过程和心情~**
 
+2021-3-30
+
+  - 0470: [用Rand7()实现Rand10()](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-30/leetcode0470.md)  
+
+2021-3-29
+
+  - 0146: [LRU缓存机制](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-29/leetcode0146.md)  
+
+
 2021-3-28
 
   - 0121: [买卖股票的最佳时机](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-3-28/leetcode0121.md)  
