@@ -22,17 +22,15 @@
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        ListNode *pCur=head;
-        ListNode* temp;
+        ListNode* cur = head;
         head = NULL;
-        while(pCur) {
-            temp = pCur;
-            pCur = pCur->next;
+        while(cur) {
+            ListNode* node = cur;
+            cur = cur->next;
 
-            temp->next = head;
-            head = temp;
+            node->next = head;
+            head = node;
         }
-
         return head;
     }
 };
