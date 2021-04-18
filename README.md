@@ -2,6 +2,12 @@
 
 **此仓库代表了我刷题的过程和心情~**
 
+
+2021-4-18
+
+  - 0042: [接雨水](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-4-18/leetcode0042.md)  
+
+
 2021-4-14
 
   - 0015: [三数之和](https://github.com/Willbebest/Leetcode-Notes/blob/main/2021-4-15/leetcode0015.md)  
