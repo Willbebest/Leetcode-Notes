@@ -76,9 +76,37 @@ public:
 
 依次遍历两个链表，选出`val`最小的节点添加到目标链表中。
 
+***
+
+**添加头结点**
+
+```cpp
+class Solution {
+public:
+    ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
+        ListNode* head =new ListNode(-1);
+        ListNode* pre=head;;
+        while(l1&&l2) {
+            if(l1->val <= l2->val) {
+                pre->next=l1;
+                l1=l1->next;
+            } else {
+                pre->next = l2;
+                l2 = l2->next;
+            }
+            pre = pre->next;
+        }
+        pre->next = (l1==NULL ? l2 : l1);
+
+        return head->next;
+    }
+};
+```
+
 * * *
 
 **递归解法(来源网上)**
+
 ```cpp
 class Solution {
 public:
@@ -97,3 +125,4 @@ public:
     }
 };
 ```
+
