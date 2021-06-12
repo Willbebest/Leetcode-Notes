@@ -61,6 +61,30 @@ int reverse(int x) {
 }
 ```
 思路：只使用一次遍历， 边遍历获取每位数字，边进行相加拼接。相比上边的解法减少了一半的循环次数，并且使用的空间更小
+
+****
+
+**最符合题意解法**
+
+```cpp
+public:
+    int reverse(int x) {
+        int result = 0;
+        while(x) {
+            int oneplace = x%10;
+            x /= 10;
+            if(result > INT_MAX/10 || (result == INT_MAX/10&&oneplace>7)) return 0;
+            if(result < INT_MIN/10 || (result == INT_MIN/10&&oneplace<-8)) return 0;
+            result = result*10 + oneplace;
+        }
+
+        return resul
+            t;
+    }
+};
+```
+每次循环都判断边界条件
+
 - - -
 **总结**
 仔细读题，注意有符号整数的范围
